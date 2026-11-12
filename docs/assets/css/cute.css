@@ -286,12 +286,12 @@ tr:last-child td { border-bottom: 0; }
 .doodle-d { top: 62%; left: 4%; font-size: 20px; color: #ffb3c9; transform: rotate(-18deg); animation-delay: -1s; }
 .doodle-e { bottom: 28%; right: 7%; font-size: 17px; color: #d8c2ff; transform: rotate(22deg); animation-delay: -3s; }
 
-.card { position: relative; }
+.card { position: relative; margin-bottom: 72px; }
 
 .cat-peek {
   position: absolute;
-  top: -42px;
-  right: 42px;
+  bottom: -26px;
+  right: 46px;
   width: 68px;
   pointer-events: none;
   filter: drop-shadow(0 8px 14px rgba(255, 127, 168, .28));
@@ -309,7 +309,7 @@ h2::before { content: "🐾 "; }
 .site-foot { display: flex; flex-wrap: wrap; justify-content: center; gap: 2px 4px; }
 
 @media (max-width: 720px) {
-  .cat-peek { width: 52px; top: -34px; right: 20px; }
+  .cat-peek { width: 52px; bottom: -22px; right: 18px; }
   .logo-mark svg { width: 22px; height: 22px; }
   .doodle-d, .doodle-e { display: none; }
 }
