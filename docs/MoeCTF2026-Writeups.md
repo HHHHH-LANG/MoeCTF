@@ -1,5 +1,6 @@
 ---
 layout: default
+title: MoeCTF 2026 Writeups
 ---
 
 # MoeCTF 2026 Writeups

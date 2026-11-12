@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="doodle doodle-a" aria-hidden="true">✿</div>
+  <div class="doodle doodle-b" aria-hidden="true">☁</div>
+  <div class="doodle doodle-c" aria-hidden="true">✧</div>
+
+  <header class="site-head">
+    <a class="logo" href="{{ '/' | relative_url }}">
+      <span class="logo-mark">🐾</span>
+      <span class="logo-text">HHHHH<em>の</em>BLOG</span>
+    </a>
+    <nav class="nav">
+      <a href="{{ '/' | relative_url }}">首页</a>
+      <a href="https://github.com/HHHHH-LANG" rel="noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="card">
+    {{ content }}
+  </main>
+
+  <footer class="site-foot">
+    <span>Made with 🍓 &amp; ☕</span>
+    <span class="sep">·</span>
+    <span>© {{ site.time | date: '%Y' }} {{ site.title }}</span>
+  </footer>
+</body>
+</html>
