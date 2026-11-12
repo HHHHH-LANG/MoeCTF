@@ -313,3 +313,18 @@ h2::before { content: "🐾 "; }
   .logo-mark svg { width: 22px; height: 22px; }
   .doodle-d, .doodle-e { display: none; }
 }
+
+/* ---------------- 猫爪鼠标指针 ---------------- */
+body,
+body * {
+  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><g fill='%23ff7fa8' stroke='%23ffffff' stroke-width='2'><ellipse cx='16' cy='21' rx='7' ry='5.5'/><ellipse cx='7.5' cy='13' rx='3.4' ry='4.2'/><ellipse cx='13' cy='8.5' rx='3.4' ry='4.4'/><ellipse cx='19' cy='8.5' rx='3.4' ry='4.4'/><ellipse cx='24.5' cy='13' rx='3.2' ry='4'/></g></svg>") 16 21, auto;
+}
+a, a *, button, summary, .nav a {
+  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><g fill='%23e8577f' stroke='%23ffffff' stroke-width='2'><ellipse cx='16' cy='21' rx='7' ry='5.5'/><ellipse cx='7.5' cy='13' rx='3.4' ry='4.2'/><ellipse cx='13' cy='8.5' rx='3.4' ry='4.4'/><ellipse cx='19' cy='8.5' rx='3.4' ry='4.4'/><ellipse cx='24.5' cy='13' rx='3.2' ry='4'/></g><path d='M16 2 l1.6 3.4 3.7 .5 -2.7 2.6 .7 3.7 -3.3 -1.8 -3.3 1.8 .7 -3.7 -2.7 -2.6 3.7 -.5 z' fill='%23ffffff' opacity='.9'/></svg>") 16 21, pointer;
+}
+pre, pre *, code, code * {
+  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><g fill='%23ff7fa8' stroke='%23ffffff' stroke-width='2'><ellipse cx='16' cy='21' rx='7' ry='5.5'/><ellipse cx='7.5' cy='13' rx='3.4' ry='4.2'/><ellipse cx='13' cy='8.5' rx='3.4' ry='4.4'/><ellipse cx='19' cy='8.5' rx='3.4' ry='4.4'/><ellipse cx='24.5' cy='13' rx='3.2' ry='4'/></g></svg>") 16 21, text;
+}
+@media (hover: none) {
+  body, body *, a, button, pre, code { cursor: auto; }
+}
