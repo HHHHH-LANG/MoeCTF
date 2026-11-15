@@ -11,6 +11,7 @@ CTF 题解与学习记录，持续更新。
 
 ## CTF
 
+- [ISCTF 2026 yunhub（Web · SSRF）](ISCTF/yunhub.md) —— 从订单接口拿到内网地址，用 `127.1` 绕过黑名单，读取渲染服务里的 flag。
 - [MoeCTF 2026 Writeups](MoeCTF2026-Writeups.md) —— 在线环境连接、Linux 基础命令、命令提示符、Web 查分与古籍翻阅，全流程记录。
 
 ## 关于
